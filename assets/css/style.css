@@ -1,0 +1,94 @@
+body {
+    margin: 0 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+form > div {
+    width:400px
+}
+
+section {
+    text-align: center;
+    height: 100vh;
+}
+
+section > h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+section > div {
+    display: inline-block;
+    margin: 2%;
+    transform: rotate(40deg);
+}
+
+section > div:hover {
+    cursor: pointer;
+}
+
+.halfCircleTop{
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    height:45px;
+    width:90px;
+    border-radius: 90px 90px 0 0;
+}
+
+.halfCircleBottom{
+    border: 1px solid #000;
+    height:45px;
+    width:90px;
+    border-radius: 0 0 90px 90px;
+}
+
+.colorOne {
+    background-color: #CABDA4;
+}
+
+.colorTwo {
+    background-color: #E78080;
+}
+
+.colorTwoText {
+    color: #E78080;
+}
+
+.colorThree {
+    background-color: #473512;
+}
+
+.colorFour {
+    background-color: #E780AB;
+}
+
+.colorFourText {
+    color: #E780AB;
+}
+
+.colorFive {
+    background-color: #9C7A8F;
+}
+
+.colorSix {
+    background-color: #80BBE7;
+}
+
+.colorSixText {
+    color: #80BBE7;
+}
+.colorSeven {
+    background-color: #315432;
+}
+
+.colorEight {
+    background-color: #BC89AE;
+}
+
+.colorEightText {
+    color: #BC89AE;
+}
